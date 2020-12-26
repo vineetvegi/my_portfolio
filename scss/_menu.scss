@@ -37,7 +37,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.98;
     visibility: hidden;
 
     &.show {
@@ -78,9 +78,9 @@
         }
 
         .portrait {
-            width: 250px;
+            width: 275px;
             height: 250px;
-            background: url('../images/profilepic.jpg');
+            background: url('../images/portrait.jpg');
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }
