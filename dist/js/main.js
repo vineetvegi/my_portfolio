@@ -30,3 +30,9 @@ function toggleMenu() {
     showMenu = false;
     }
 }
+
+function myLinkFunction(e) {
+  window.location.href = "menu-btn";
+  e.preventDefault();
+  e.stopPropagation();
+}

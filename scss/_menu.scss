@@ -16,6 +16,13 @@
         @include easeOut;
     }
 
+    .button {
+        width: 25vh;
+        height: 5vh;
+        margin: 0 0 5px 0;
+        background: set-text-color($primary-color);
+    }
+
     &.close {
         transform: rotate(180deg);
 

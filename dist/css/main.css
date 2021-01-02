@@ -11,6 +11,11 @@
     margin: 0 0 5px 0;
     background: #fff;
     transition: all 0.5s ease-out; }
+  .menu-btn .button {
+    width: 25vh;
+    height: 5vh;
+    margin: 0 0 5px 0;
+    background: #fff; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -147,6 +152,23 @@ main {
         color: #eece1a;
         transition: all 0.5s ease-out; }
 
+.about-me {
+  text-align: center; }
+
+.more-about-me {
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  border: 2px solid;
+  width: 200px;
+  height: 40px;
+  box-shadow: 3px 3px 6px 4px #eece1a;
+  padding: 2px;
+  margin-top: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: larger; }
+
 #home {
   overflow: hidden; }
   #home h1 {
@@ -155,7 +177,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3' 'job4 job job';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -171,10 +193,36 @@ main {
     grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
+  .about-info .job-4 {
+    grid-area: job4; }
   .about-info .job {
+    text-align: center;
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+
+.education {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'edu-1 edu-2';
+  grid-template-columns: repeat(2, 1fr); }
+  .education .edu-1 {
+    grid-area: edu-1; }
+  .education .edu-2 {
+    grid-area: edu-2; }
+  .education .edu {
+    text-align: center;
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #eece1a 5px solid; }
+
+.text-area {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  padding: 0.1rem 0.2rem;
+  background: rgba(73, 73, 73, 0.5);
+  text-align: center;
+  color: #eece1a; }
 
 .projects-info {
   display: grid;
